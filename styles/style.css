@@ -1,0 +1,96 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.banner-1-img {
+  background-image: url(../images/banner.png);
+  height: calc(100vh - 150px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-2-img {
+  background-image: url(../images/banner.png);
+  height: calc(100vh - 150px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-3-img {
+  background-image: url(../images/banner.png);
+  height: calc(100vh - 150px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn-first {
+  background-color: #ffffff;
+  color: #3f87f5;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 0;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.btn-first-1 {
+  background-color: #cfc7cc;
+  color: rgba(63, 135, 245, 1);
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 0;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.btn-first-1:hover
+{
+  opacity: 1;
+}
+.btn-first:hover {
+  background-color: #3f87f5;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.margin
+{
+  margin-top: 150px;
+}
+.btn-second {
+  background: #3f87f5;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 0;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.btn-second:hover {
+  opacity: 1;
+}
+.close {
+  position: relative;
+}
+
+.close-item {
+  position: absolute;
+  top: 70px;
+  right: 0;
+}
+.plus-wedding
+{
+    position: relative;
+    top:-105px;
+}
+@media (max-width: 576px) {
+  .close-item {
+    position: absolute;
+    top: -10px;
+    right: 120px;
+  }
+  .margin
+{
+  margin-top: 10px;
+}
+  .plus-wedding
+{
+    top:0px;
+}
+}
